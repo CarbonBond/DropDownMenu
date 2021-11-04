@@ -1,0 +1,28 @@
+{
+  "name": "dropdownmenu",
+  "version": "1.0.0",
+  "description": "A simple drop down module that takes in a div, and a toggle button.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "watch": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarbonBond/DropDownMenu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarbonBond/DropDownMenu/issues"
+  },
+  "homepage": "https://github.com/CarbonBond/DropDownMenu#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
